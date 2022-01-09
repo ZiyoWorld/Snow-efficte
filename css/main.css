@@ -1,0 +1,31 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: rgb(5, 2, 32);
+}
+.myself{
+      font-size: 15rem;
+      color: rgba(248, 242, 242, 0.9);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-shadow: 5px 5px 5px rgb(219, 215, 215);
+
+}
+.fa-snowflake{
+     color: #fff;
+     position: absolute;
+     top: -20px;
+     animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+     to{
+          transform: translateY(105vh);
+     }
+}
